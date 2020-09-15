@@ -16,6 +16,6 @@ jobs:
       - name: Check out code into the Go module directory
         uses: actions/checkout@v1
       - name: Get dependencies
-        run: go mod tidy
+        run: go get -d
       - name: Go release
         uses: goreleaser/goreleaser-action@v1
