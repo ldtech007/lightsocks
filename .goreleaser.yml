@@ -14,6 +14,10 @@ builds:
       - amd64
       - 386
       - arm
+      - mipsle 
+    gomips:
+      - softfloat 
+      
   - binary: lightsocks-server
     id: lightsocks-server
     main: ./cmd/lightsocks-server/main.go
