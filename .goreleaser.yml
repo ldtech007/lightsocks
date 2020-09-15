@@ -6,27 +6,9 @@ builds:
     id: lightsocks-local
     main: ./cmd/lightsocks-local/main.go
     goos:
-      - windows
-      - darwin
       - linux
-      - freebsd
     goarch:
-      - amd64
-      - 386
-      - arm
       - mipsle 
     gomips:
       - softfloat 
       
-  - binary: lightsocks-server
-    id: lightsocks-server
-    main: ./cmd/lightsocks-server/main.go
-    goos:
-      - windows
-      - darwin
-      - linux
-      - freebsd
-    goarch:
-      - amd64
-      - 386
-      - arm
