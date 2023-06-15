@@ -6,6 +6,6 @@ builds:
     id: lightsocks-local
     main: ./cmd/lightsocks-local/main.go
     goos:
-      - macos-latest-arm64
+      - darwin
     goarch:
       - arm64
