@@ -1,7 +1,6 @@
 name: macos
 on: [push]
-    release:
-    types: [published]
+
 jobs:
   goreleaser:
     runs-on: macos-latest-arm64
