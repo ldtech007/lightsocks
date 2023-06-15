@@ -22,8 +22,7 @@ type Config struct {
 }
 
 func init() {
-	//home, _ := homedir.Dir()
-	home := "/home/root/"
+	home, _ := homedir.Dir()
 	// 默认的配置文件名称
 	configFilename := ".lightsocks.json"
 	// 如果用户有传配置文件，就使用用户传入的配置文件

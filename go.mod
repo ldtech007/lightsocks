@@ -1,4 +1,4 @@
-module github.com/smallguy/lightsocks
+module github.com/ldtech007/lightsocks
 
 go 1.13
 

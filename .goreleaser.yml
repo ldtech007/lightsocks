@@ -6,9 +6,9 @@ builds:
     id: lightsocks-local
     main: ./cmd/lightsocks-local/main.go
     goos:
-      - linux
+      - macos
     goarch:
-      - mipsle 
+      - arm64 
     gomips:
       - softfloat 
       
